@@ -3,9 +3,10 @@
     box-sizing: border-box;
 }
 
-* {
+body {
     margin:0px;
     padding: 0px;
+    background-color: #070707;
 }
 
 /* NAVBAR */
@@ -121,15 +122,15 @@ section {
 
 article {
     float: left;
-    background-color: yellow;
+    background-color:#1b1b1b;
     width: 100%;
     padding: 40px;
     margin-bottom: 30px;;
 }
 
 article img {
-    width: 160px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
     float: left;
 }
 
@@ -137,13 +138,13 @@ article img {
     width: 60%;
     float: left;
     margin-left: 50px;
-    background-color: red;
 }
 
 .content h1 {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 24px;
     font-weight: 600;
+    color: #eb97a7;
 }
 
 .content p {
@@ -151,6 +152,7 @@ article img {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5em;
+    color: white;
 }
 
 /* ASIDE */
@@ -158,12 +160,11 @@ article img {
 aside {
     float: left;
     width: 20%;
-    background: red;
+    background: #eb97a7;;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 50px;
     margin-bottom: 100px;
-    height: 1000px;
     padding: 20px;
 }
 
