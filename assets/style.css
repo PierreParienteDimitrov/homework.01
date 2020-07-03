@@ -1,0 +1,179 @@
+/* GENERAL STYLING */
+* {
+    box-sizing: border-box;
+}
+
+* {
+    margin:0px;
+    padding: 0px;
+}
+
+/* NAVBAR */
+
+header {
+    margin: 0px;
+    overflow: hidden;
+    width: 100%;
+}
+
+img {
+    width: 110%;
+    filter: brightness(0.7);
+    padding: 0px;
+    margin: 0px -10px 0px -10px;
+    z-index: -1;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: transparent;
+    z-index: +1;
+}
+
+.left {
+    float: left;
+    position: fixed;
+    top: 30px;
+    left: 50px;
+}
+
+nav h4 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    color:white;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 50px;
+    top: 40px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    padding-left: 16px;
+    padding-right: 0px;
+    text-transform: uppercase;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    letter-spacing: 0.1em;
+}
+
+
+.title {
+    position: absolute;
+    top: 30%;
+    left: 100px;
+    width: 40%;
+}
+
+
+.title h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 44px;
+    font-weight: 500;
+    color:white;
+    line-height: 1.5em;
+    margin-bottom: 50px;
+}
+
+.title button {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 0px;
+    border: none;
+    background-color: #eb97a7;
+    padding: 10px 20px;
+    color: black;
+
+}
+
+/* SECTION */
+
+section {
+    width: 65%;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    height: 1000px;
+    float: left;
+}
+
+article {
+    float: left;
+    background-color: yellow;
+    width: 100%;
+    padding: 40px;
+    margin-bottom: 30px;;
+}
+
+article img {
+    width: 160px;
+    height: 100px;
+    float: left;
+}
+
+.content {
+    width: 60%;
+    float: left;
+    margin-left: 50px;
+    background-color: red;
+}
+
+.content h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.content p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+/* ASIDE */
+
+aside {
+    float: left;
+    width: 20%;
+    background: red;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    height: 1000px;
+    padding: 20px;
+}
+
+.benefit {
+    text-align: center;
+}
+
+.benefit h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color:black;
+}
